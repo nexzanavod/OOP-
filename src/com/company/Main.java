@@ -22,5 +22,11 @@ public class Main {
         enemies[0].Talk();
         enemies[1].Talk();
 
+        System.out.println("***********************************");
+
+        vampire.setHealth(25);
+
+        vampire.getHealth();
+
     }
 }
